@@ -8,7 +8,7 @@ import routes from "./routes/index.js";
 const app = express();
 
 // Railway / Reverse Proxy
-app.set("trust proxy", true);
+app.set("trust proxy", 1);
 
 console.log("TRUST PROXY ENABLED");
 
